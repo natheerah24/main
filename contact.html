@@ -1,30 +1,114 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <link rel="stylesheet" href="contact.css">
+    <link rel="stylesheet" href="contact.css" />
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>contact details</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor"
+      crossorigin="anonymous"
+    />
   </head>
-    <h1>Contact link</h1>
-    <form
-  action="https://formspree.io/f/mnqwgjwz"
-  method="POST"
->
-<P><label for="fname">Full Name:</label</p>
-        <p><input type="text" name="name" value="Full name" /></p>
-        <P><label for="fname">Email:</label</p>
-        <p><input type="email" name="email" value="Email" /></p>
-        <P><label for="fname">Contact:</label</p>
-        <p><input type="text" name="number" value="+27" /></p>
-        <P><label for="fname">Date:</label</p>
-        <p><input type="date" name="date" value="Date" /></p>
-        <P><label for="fname">Time:</label</p>
-        <p><input type="time" name="Time" value="Time" /></p>
-
-  <button type="submit">Send</button>
-</form>
+  <body>
+    <div class="p-3 mb-2 bg- text-light">
+      <h1 class="sub">Contact us</h1>
+      <form action="https://formspree.io/f/xqkngvbz" method="POST">
+        <div class="row">
+          <div class="col-md-4">
+            <div class="mb-3">
+              <label for="Name" class="form-label"></label>
+              <input
+                type="Name"
+                class="form-control"
+                id="Name"
+                placeholder="Your Name"
+              />
+            </div>
+            <div class="mb-3">
+              <label for="Date" class="form-label"></label>
+              <input
+                type="Date"
+                class="form-control"
+                id="Date"
+                placeholder="Date"
+              />
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="mb-3">
+              <label for="Email" class="form-label"></label>
+              <input
+                type="Email"
+                class="form-control"
+                id="Email"
+                placeholder="Your Email"
+              />
+            </div>
+            <div class="mb-3">
+              <label for="Time" class="form-label"></label>
+              <input
+                type="text"
+                class="form-control"
+                id="Time"
+                placeholder="Time"
+              />
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="mb-3">
+              <label for="Tel" class="form-label"></label>
+              <input
+                type="text"
+                class="form-control"
+                id="Your phone"
+                placeholder="Your Phone"
+              />
+            </div>
+            <div class="mb-3">
+              <label for="Tel" class="form-label"></label>
+              <input
+                type="number"
+                class="form-control"
+                name="people"
+                id="people"
+                placeholder="# of people"
+              />
+            </div>
+          </div>
+          <div class="mb-3">
+            <label for="exampleFormControlTextarea1" class="form-label"></label>
+            <textarea
+              class="form-control"
+              id="exampleFormControlTextarea1"
+              rows="3"
+              placeholder="Message"
+            ></textarea>
+          </div>
+        </div>
+        <div class="subtbn d-flex justify-content-center">
+          <button
+            type="submit"
+            id="submitbtn"
+            class="btn btn-outline-light rounded-pill"
+          >
+            Send
+          </button>
+        </div>
+      </form>
+    </div>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2"
+      crossorigin="anonymous"
+    ></script>
   </body>
-  <a href="./index.html">Home page</a>
+  <div class="button-container">
+    <a href="/index.html" class="btn btn-outline-light rounded-pill"
+      >Back to home page</a
+    >
+  </div>
 </html>

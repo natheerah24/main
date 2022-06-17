@@ -1,5 +1,14 @@
-body {
-  background-image: url("maldives.jpg");
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+#Landing {
+  background: linear-gradient(rgba(0, 0, 0, 0.45), rgba(0, 0, 0, 0.45)),
+    url(/assets/maldives.jpg);
+  min-height: 100vh;
+  background-position: center;
+  background-size: cover;
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-size: 100% 100%;
@@ -7,4 +16,18 @@ body {
     Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
   color: black;
   list-style-type: square;
+}
+#head1 {
+  font-family: "Shadows Into Light", cursive;
+  color: #a3cfcd;
+  display: flex;
+  justify-content: space-evenly;
+  flex-direction: row-reverse;
+}
+#title {
+  padding-top: 20rem;
+}
+.button-container {
+  display: flex;
+  justify-content: center;
 }
