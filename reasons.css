@@ -19,25 +19,26 @@
 }
 #style {
   font-family: "Shadows Into Light", cursive;
-  color: #a3cfcd;
+  color: #00847d;
   display: flex;
   justify-content: space-evenly;
   flex-direction: row-reverse;
   padding-top: 12rem;
   text-decoration: underline;
+  text-shadow: 3px 3px 0px #191919;
 }
 .list {
   color: white;
   font-size: 25px;
 }
-dl,
-ol,
+
 ul {
   margin-top: 0;
   margin-bottom: 1rem;
   display: flex;
   flex-direction: column;
   align-items: center;
+  text-shadow: 3px 3px 2px #191919;
 }
 .button-container {
   display: flex;

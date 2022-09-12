@@ -19,10 +19,11 @@
 }
 #head1 {
   font-family: "Shadows Into Light", cursive;
-  color: #a3cfcd;
+  color: #00847d;
   display: flex;
   justify-content: space-evenly;
   flex-direction: row-reverse;
+  text-shadow: 3px 3px 2px #191919;
 }
 #title {
   padding-top: 20rem;
